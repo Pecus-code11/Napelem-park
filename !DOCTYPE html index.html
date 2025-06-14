@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Napelemparkok fűnyírása</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header, footer { background: #003366; color: white; padding: 20px; text-align: center; }
+    nav { background: #006699; color: white; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; }
+    main { padding: 20px; max-width: 1000px; margin: auto; background: white; }
+    h1, h2 { color: #003366; }
+    .service { margin-bottom: 20px; }
+    form input, form textarea, form select { width: 100%; padding: 10px; margin: 10px 0; }
+    form button { background: #003366; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    footer small { display: block; margin-top: 10px; color: #ccc; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Napelemparkok fűnyírása országos szinten</h1>
+  </header>
+  <nav>
+    <a href="#services">Szolgáltatások</a>
+    <a href="#offer">Árajánlat kérés</a>
+    <a href="#contact">Kapcsolat</a>
+  </nav>
+  <main>
+    <section id="about">
+      <h2>Rólunk</h2>
+      <p>Vállalkozásunk a napelem parkok területének gondozására szakosodott: fűnyírás, gyomirtás, zöldhulladék elszállítás. Rugalmas, megbízható partnerként segítjük megbízóinkat.</p>
+    </section>
+    <section id="services">
+      <h2>Szolgáltatásaink</h2>
+      <div class="service">
+        <h3>Fűnyírás</h3>
+        <p>Rendszeres vagy alkalmi fűnyírás, minimális gond, hosszútávú szerződéssel is. Ár: 10-50 Ft/m²</p>
+      </div>
+      <div class="service">
+        <h3>Fűnyírás zöldhulladék elszállítással</h3>
+        <p>Levágott fű és zöldhulladék összegyűjtése és elszállítása. Ár: 10-30 Ft/m²</p>
+      </div>
+      <div class="service">
+        <h3>Gyomirtás</h3>
+        <p>Kerítés tövében, szűk helyeken gyommentesítés, permetezés. Ár: 20-80 Ft/m²</p>
+      </div>
+    </section>
+    <section id="offer">
+      <h2>Ingyenes árajánlat</h2>
+      <p>Töltse ki az alábbi űrlapot, hogy kollégáink felvehessék Önnel a kapcsolatot.</p>
+      <form>
+        <input type="text" name="vezeteknev" placeholder="Vezetéknév" required>
+        <input type="text" name="keresztnev" placeholder="Keresztnév" required>
+        <input type="text" name="cegnev" placeholder="Cégnév">
+        <input type="tel" name="telefon" placeholder="Telefonszám" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <label>Szolgáltatás:</label>
+        <select name="szolgaltatas">
+          <option>Fűnyírás</option>
+          <option>Fűnyírás zöldhulladék elszállítással</option>
+          <option>Gyomírtással</option>
+        </select>
+        <input type="text" name="helyszin" placeholder="Helyszín (Google koordináció)">
+        <input type="number" name="terulet" placeholder="Napelem park területe (m²)">
+        <textarea name="megjegyzes" placeholder="Megjegyzés"></textarea>
+        <input type="file" name="pdffeltoltese">
+        <button type="submit">Ajánlatkérés elküldése</button>
+      </form>
+    </section>
+    <section id="contact">
+      <h2>Kapcsolat</h2>
+      <p>Email: <a href="mailto:info@napelemparkok.hu">info@napelemparkok.hu</a></p>
+      <p>Telefon: +36 (30) 123-4567</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Napelemparkok Kft. Minden jog fenntartva.</p>
+    <small>Adatvédelem | ÁSZF | Impresszum</small>
+  </footer>
+</body>
+</html>
